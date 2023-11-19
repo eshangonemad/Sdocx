@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>AceTheExams - Sdocx</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
+  <div id="notepad" tabindex="1" contenteditable></div>
+  <ul id="menu" class="m">
+    <li class="m__item" data-action="formatClear" title="Clear format">
+      <i class="iconify" data-icon="mdi-format-clear"></i>
+    </li>
+    <li class="m__item" data-action="historyAdd" title="Add to history">
+      <i class="iconify" data-icon="mdi-database-plus"></i>
+    </li>
+    <li class="m__item" data-action="historyClear" title="Clear history">
+      <i class="iconify" data-icon="mdi-database-remove"></i>
+    </li>
+    <li class="m__item m__history" data-action="toggle" title="History">
+      <i class="iconify" data-icon="mdi-history"></i>
+      <ul id="history"></ul>
+    </li>
+  </ul>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
