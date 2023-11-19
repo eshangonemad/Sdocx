@@ -10,6 +10,7 @@ body {
   display: flex;
   flex-flow: column;
   font: 1.25em/1.6 "Noto Sans", sans-serif;
+  background-color:#272727;
 }
 
 a {
